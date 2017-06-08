@@ -8,6 +8,7 @@ function bubbleSort(array){
       array[i] = nextElm;
     }
   }
+
   var bool = false;
   for(var j =0;j<array.length;j++){
     var element = array[j];
